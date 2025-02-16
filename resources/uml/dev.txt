@@ -1,0 +1,46 @@
+It is recommended to develop the different classes in the
+following order (after each one, make sure it passes the
+corresponding unit tests).
+
+Es recomendable desarrollar las diferentes clases en 
+el siguiente orden (después de cada clase, asegurate 
+de que pase las pruebas unitarias correspondientes).
+
+
+
+simulator.model
+===============
+
+Body.java
+MovingBody.java
+StationaryBody.java
+ForceLaws.java
+MovingTowardsFixedPoint.java
+NewtonUniversalGravitation.java
+NoForce.java
+BodiesGroup.java
+PhysicsSimulator.java
+
+
+simulator.factories
+===================
+
+Factory.java
+Builder.java
+MovingBodyBuilder.java
+StationaryBodyBuilder.java
+NewtonUniversalGravitationBuilder.java
+MovingTowardsFixedPointBuilder.java
+NoForceBuilder.java
+BuilderBasedFactory.java
+
+simulator.control
+=================
+
+Controller.java
+
+simulator.launcher
+==================
+
+Main.java
+
